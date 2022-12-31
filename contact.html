@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Bakerie - Contactez-moi</title>
+    <title>Bakerie - Contact</title>
 </head>
 <body>
     <header>
@@ -18,19 +18,41 @@
                 <a href="about.html">La Patissière</a>
                 <a href="creations.html">Les Créations</a>
                 <a href="tarifs.html">Tarifs</a>
-                <a href="contact.html">Contactez-moi</a>
+                <a href="contact.html">Contact</a>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Qu'est ce qui vous fait envie? Dites-le moi!</h1>
+        <section class="formulaire">
+            <h1>Dites nous ce qui vous fait envie!</h1>
+            <form method="get" action="thankyou.html">
+                <p>
+                    <fieldset>
+                        <legend>Vos Informations</legend>
+                        <label for="prenom">Prénom*</label> : <input autofocus required placeholder="Votre prénom" type="text" name="prenom" id="prenom">
+                        <label for="nom">Nom*</label> : <input required placeholder="Votre nom" type="text" name="nom" id="nom"><br>
+                        <label for="tel">Téléphone*</label> : <input required placeholder="Votre numéro" type="tel" name="tel" id="tel"><br>
+                        <label for="email">Adresse Mail*</label> : <input required placeholder="Votre email" type="email" name="email" id="email"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Votre Projet</legend>
+                        <label for="projet">*</label>
+                        <textarea required placeholder="Décrivez votre projet en détails ici." name="projet" id="projet"></textarea>
+                    </fieldset>
+                    <input type="submit">
+                </p>
+            </form>
+        </section>
+        <section class="business_info">
+            <h2>Où nous trouver</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6587.49619104449!2d2.303600417926818!3d48.87155287340573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc249be485d%3A0x2be3a396c8fd4569!2zTGFkdXLDqWU!5e0!3m2!1sen!2sfr!4v1672449215522!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
         <a href="home.html" class="lien-icone">
             <img src="images/logo.png" alt="Logo Bakerie"/>
         </a>
+        <p>Tous droits réservés © Virginie Bellec 2022</p>
         <div>
             <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
                 <img src="images/instagram.png" alt="Logo Instagram"/>
