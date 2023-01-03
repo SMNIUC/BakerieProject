@@ -4,14 +4,26 @@
     background-color: #F7EBED;
 }
 
-header, footer{
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
     background-color: white;
     padding: 10px 60px;
-    margin: 30px;
+    margin: 30px 30px 0px 30px;
     border-radius: 10px;
 }
 
 footer{
+    background-color: white;
+    padding: 10px 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-grow: 1;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -172,7 +184,6 @@ border-radius: 10px;
 
 .page-creations h1{
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -191,7 +202,79 @@ border-radius: 10px;
     margin-bottom: 50px;
 }
 
-.page-creations .button{
+.prices{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
+
+.prices h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.prices-table{
+    margin: auto;
+}
+
+.prices-table th{
+    background-color: #fc9caf;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.prices-table td, .formulaire h1{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.first{
+    font-weight: 700;
+}
+
+.order{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info, .info label, .project, .project label, input, legend, textarea{
+    background-color: white;
+}
+
+legend{
+    font-size: larger;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    background-color: #fc9caf;
+}
+
+form{
+    margin: 30px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.business_info h3, .business_info h2{
+    text-align: center;
+}
+
+.project{
+    margin-top: 50px;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+}
+
+.ty{
+    text-align: center;
+    margin-top: 80px;
+}
+

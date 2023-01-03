@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <title>Bakerie - Tarifs</title>
 </head>
 <body>
@@ -24,10 +24,9 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Les Tarifs</h1>
-            <table>
-                <caption>Nos Tarifs</caption>
+        <section class="prices">
+            <h1>- Les Tarifs - </h1>
+            <table class="prices-table">
                 <thead>
                     <tr>
                         <th>Types de Gâteau</th>
@@ -38,25 +37,25 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1 Etage</td>
+                        <td class="first">1 Etage</td>
                         <td>200 euros</td>
                         <td>100 euros</td>
                         <td>50 euros</td>
                     </tr>
                     <tr>
-                        <td>2 Etages</td>
+                        <td class="first">2 Etages</td>
                         <td>300 euros</td>
                         <td>150 euros</td>
                         <td>75 euros</td>
                     </tr>
                     <tr>
-                        <td>3 Etages</td>
+                        <td class="first">3 Etages</td>
                         <td>400 euros</td>
                         <td>200 euros</td>
                         <td>100 euros</td>
                     </tr>
                     <tr>
-                        <td>4 Etages</td>
+                        <td class="first">4 Etages</td>
                         <td>500 euros</td>
                         <td>250 euros</td>
                         <td>125 euros</td>
@@ -64,7 +63,9 @@
                 </tbody>
             </table>
         </section>
-        <a href="contact.html" class="button">Passez Commande</a>
+        <div class="order">
+            <a href="contact.html" class="button">Passez Commande</a>
+        </div>
     </main>
     <footer>
         <a href="home.html">
