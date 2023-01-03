@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&family=Raleway&display=swap" rel="stylesheet">
     <title>Bakerie - Accueil</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="home.html" class="lien-icone">
+            <a href="home.html" class="logo">
                 <img src="images/logo.png" alt="Logo Bakerie"/>
             </a>
             <div>
@@ -23,31 +24,37 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Bienvenue chez Bakerie!</h1>
-            <h2>La patisserie de toutes vos envies.</h2>
-            <p>Notre pâtisserie est réputée pour ses gâteaux de luxe, créés avec les meilleurs ingrédients et une attention particulière portée à chaque détail.
-                Nous proposons une large gamme de gâteaux allant des classiques aux plus originaux, tous confectionnés avec soin par notre pâtissière de talent.
+        <section class="intro_titles">
+            <h1>- Bienvenue chez Bakerie -</h1>
+            <h2>La patisserie de toutes vos envies</h2>
+        </section>
+        <section class="intro_content">
+            <div class="intro_text">
+                <p>Notre pâtisserie est réputée pour ses gâteaux de luxe, créés avec les meilleurs ingrédients et une attention particulière portée à chaque détail.
+                Nous proposons une large gamme de gâteaux allant des classiques aux plus originaux, tous confectionnés avec soin par notre pâtissière de talent.</p>
+                <p>
                 Nos gâteaux sont non seulement délicieux, mais aussi un véritable spectacle pour les yeux avec leur présentation soignée et leur décoration élégante.
-                Que vous cherchiez un gâteau pour une occasion spéciale ou simplement pour vous faire plaisir, vous trouverez ce que vous cherchez dans notre pâtisserie de luxe.
+                Que vous cherchiez un gâteau pour une occasion spéciale ou simplement pour vous faire plaisir, vous trouverez ce que vous cherchez dans notre pâtisserie de luxe.</p>
+                <p>
                 N'hésitez pas à nous rendre visite et à découvrir notre sélection de gâteaux somptueux. Nous sommes sûrs que vous ne serez pas déçus !</p>
+                <a href="about.html" class="button">Rencontrer La Patissière</a>
+            </div>  
             <a href="creations.html">
-                <img src="images/cupcakes.jpg" alt="Photo de cupcakes">
+                <img src="images/cupcakes.jpg" alt="Photo de cupcakes" id="intro_photo">
             </a>
         </section>
-        <a href="about.html">La Patissière</a>
     </main>
     <footer>
-        <a href="home.html" class="lien-icone">
-            <img src="images/logo.png" alt="Logo Bakerie" />
+        <a href="home.html">
+            <img src="images/logo.png" alt="Logo Bakerie"/>
         </a>
         <p>Tous droits réservés © Virginie Bellec 2022</p>
         <div>
-            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-                <img src="images/instagram.png" alt="Logo Instagram" />
+            <a target="_blank" href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="Logo Instagram"/>
             </a>
-            <a target="_blank" href="https://facebook.com/" class="lien-icone">
-                <img src="images/facebook.png" alt="Logo Facebook" />
+            <a target="_blank" href="https://facebook.com/" id="logo-facebook">
+                <img src="images/facebook.png" alt="Logo Facebook"/>
             </a>
         </div>
     </footer>
